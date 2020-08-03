@@ -1,0 +1,39 @@
+.owl-prev,
+.owl-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    content: "";
+    font-family: 'FontAwesome';
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    color: transparent;
+    cursor: pointer;
+    opacity: 0.8;
+    z-index: 1000;
+    text-align: center;
+    line-height: 29px;
+}
+.owl-carousel .owl-nav .owl-prev:before { content: "\f104"; }
+.owl-carousel .owl-nav .owl-next:before { content: "\f105"; }
+.no-rgba .owl-prev,
+.no-rgba .owl-next {
+  background-color: #3e3e3e;
+}
+.owl-prev,
+.owl-next {
+  display: block;
+}
+.owl-prev:hover,
+.owl-next:hover {
+  opacity: 1;
+}
+.owl-prev {
+  left: 0;
+}
+.owl-next {
+  right: 0;
+}
